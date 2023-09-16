@@ -17,5 +17,16 @@ use App\Http\Controllers\Producto;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/homepage', function () {
+    return view('welcome');
+});
+Route::get('/inicio', function () {
+    return view('welcome');
+});
+Route::get('/bienvenido', function () {
+    return view('welcome');
+});
+
+
 
 Route::get('productos', [Producto::class, 'mostrarProductos']);
